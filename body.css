@@ -1,0 +1,227 @@
+/*header styling*/
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+}
+nav li ul{
+    display: inline-block;
+    margin-right: 20px;
+    flex-direction: row;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*body styling*/
+body{
+    background-color: white;
+}
+/* home section styling*/
+#Home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgb(186, 183, 183);
+
+
+}
+#Home h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+
+}
+#home p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+ #About{
+    /*positioning the About us button in relation to the Home page one*/
+    position: relative;
+    top: -40px;
+    left: 70px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+#About h2{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 3em;
+    text-align: center;
+}
+#About p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Work{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#Work h2:not(.work-experience){
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 3em;
+    text-align: center;
+  
+}
+.logo-css{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    flex: 0 0 auto;
+
+}
+.work-content{
+    margin-left: 20px;
+}
+.logo-html{
+    width: 80px;
+    height: 100px;
+    position: relative;
+
+}
+#Resume, h4, h5{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    gap:  18px;
+    font-size: 20px;
+
+}
+button{
+    text-align: center;
+    color: blue;
+    background-color: grey;
+    font-size: large;
+    border-radius: 50px;
+}
+
+/* Style the Sticky icons on web page */
+.stickyicon-list {
+    position: relative;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+
+.stickyicon-list a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.5s ease;
+    color: #333;
+    font-size: 24px;
+}
+
+/* HOver affect on sticky social media icons */
+.stickyicon-list a:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+/* Now we have to design each icon of social media */
+.facebook {
+    background: #3b5998;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+
+}
+
+.twitter {
+    color: white;
+    background: #00acee;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.linkedin {
+    background: #0e76a8;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.instagram {
+    background: #3f729b;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+.custom-button
+{
+margin-top:10px;
+display:block;
+padding: 10px 20px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+background-color: #ad6800;
+color: #fff;
+transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+background-color: #874d00;
+}
+
+.youtube {
+    color: white;
+    background: #c4302b;
+    padding: 2px;
+    border-radius: 50%;
+}  
+.circle-image {
+    border-radius: 50%;
+    width: 600px;
+    height: 900px;
+    object-fit: cover;
+}
+.whatsapp {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left:0;
+    right:unset;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    }
+    .my-float {
+        margin-top: 30px;
+    }
